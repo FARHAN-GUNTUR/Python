@@ -8,6 +8,3 @@ print("data = ", dataInt, "merupakan tipe data", type(dataInt)) #DIBULATKAN KE B
 print("data = ", dataBool, "merupakan tipe data", type(dataBool))
 print("data = ", dataStr, "merupakan tipe data", type(dataStr))
 print("=" * 25);
-nilai = 80;
-hasil = nilai > 70
-print(hasil)
