@@ -9,26 +9,7 @@
 # *print("data = ", dataStr, "merupakan tipe data", type(dataStr))
 # *print("=" * 25);
 
-# !OPERATOR LOGIKA BITWISE (XOR) (MENGHASILKAN NILAI TRUE JIKA SALAH SATU BERNILAI TRUE)
-# *a = False
-# *b = False
-# *c = a ^ b
-# *print(a, 'XOR', b, '=', c)
-# *a = True
-# *b = False
-# *c = a ^ b
-# *print(a, 'XOR', b, '=', c)
-# *a = False
-# *b = True
-# *c = a ^ b
-# *print(a, 'XOR', b, '=', c)
-# *a = True
-# *b = True
-# *c = a ^ b
-# *print(a, 'XOR', b, '=', c)
-# *print('=' * 25)
-
-# !OPERATOR LOGIKA OR (||) (AKAN MENGHASILKAN NILAI TRUE APABILA SALAH SATUNYA TRUE )
+# !OPERATOR LOGIKA OR (AKAN MENGHASILKAN NILAI TRUE APABILA SALAH SATUNYA TRUE )
 # *inputUser = float(input('Masukkan angka kurang dari 5 atau lebih dari 10 : '))
 # *kurangDari = (inputUser < 5)
 # *lebihDari = (inputUser > 10)
@@ -36,7 +17,7 @@
 # *print(hasil);
 # *print('=' * 25)
 
-# !OPERATOR LOGIKA AND (&&) (MENGHASILKAN NILAI TRUE APABILA SEMUANYA BERNILAI TRUE)
+# !OPERATOR LOGIKA AND (MENGHASILKAN NILAI TRUE APABILA SEMUANYA BERNILAI TRUE)
 # *inputUser = float(input('Masukkan angka lebih dari 5 dan kurang dari 10 : '))
 # *lebihDari = inputUser > 5
 # *kurangDari = inputUser < 10
