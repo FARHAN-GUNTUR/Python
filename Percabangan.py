@@ -1,6 +1,3 @@
-import datetime as dt
-
-
 def sayHello(waktu, nama):
     kalimat = (f"Halo {nama}, Selamat {waktu}")
     print(kalimat)
@@ -56,3 +53,8 @@ sayHello('Pagi', 'Guntur')
 #         print(f'Angkot no. {noAngkot} sedang beroperasi')
 #     else:
 #         print(f'Angkot no. {noAngkot} sedang rusak')
+
+nama = "Guntur Wahyu Septiaji"
+ucapan = (
+    f"Selamat pagi {nama[:6]}") if "Guntur" in nama else "Good Job"
+print(ucapan)
