@@ -37,24 +37,72 @@ sayHello('Pagi', 'Guntur')
 #     i += 1
 # print('=' * 25)
 
+
 # for x in range(10):
 #     if x % 2 == 1:
 #         continue
 #     print(x)
 # print('=' * 25)
 
-# noAngkot = 1
+
 # jumlahAngkot = 10
 # angkotBeroperasi = 6
-# for (noAngkot) in range(jumlahAngkot + 1):
-#     if noAngkot == 0:
-#         continue
-#     elif noAngkot <= angkotBeroperasi:
+# noAngkot = 1
+# while noAngkot <= angkotBeroperasi:
+#     print(f"Angkot no. {noAngkot} sedang beroperasi")
+#     noAngkot += 1
+# for noAngkot in range(angkotBeroperasi, 11):
+#     print(f"Angkot no. {noAngkot} sedang beroperasi")
+
+# noAngkot = 11
+# jumlahAngkot = 20
+# angkotBeroperasi = 16
+# for (noAngkot) in range(noAngkot, jumlahAngkot+1):
+#     if noAngkot <= angkotBeroperasi:
 #         print(f'Angkot no. {noAngkot} sedang beroperasi')
 #     else:
 #         print(f'Angkot no. {noAngkot} sedang rusak')
 
-nama = "Guntur Wahyu Septiaji"
-ucapan = (
-    f"Selamat pagi {nama[:6]}") if "Guntur" in nama else "Good Job"
-print(ucapan)
+# noAngkot = 21
+# jumlahAngkot = 30
+# angkotBeroperasi = 26
+# for noAngkot in range(noAngkot, jumlahAngkot+1):
+#     if noAngkot == 24:
+#         print(f"Angkot no. {noAngkot} berada di bengkel")
+#     elif noAngkot <= angkotBeroperasi or noAngkot == 28:
+#         print(f"Angkot no. {noAngkot} sedang beroperasi")
+#     else:
+#         print(f"Angkot no. {noAngkot} sedang rusak")
+
+# jumlahAngkot = 30
+# noAngkot = 1
+# for i in range(noAngkot, jumlahAngkot+1):
+#     if i in [16, 17, 18, 19, 20, 27, 28, 29, 30]:
+#         print(f"Angkot no. {i} sedang rusak")
+#     elif i == 24:
+#         print(f"Angkot no. {i} sedang berada di bengkel")
+#     else:
+#         print(f"Angkot no. {i} sedang beroperasi")
+
+# nama = "Guntur Wahyu Septiaji"
+# ucapan = (
+#     f"Selamat pagi {nama[:6]}") if "Guntur" in nama else "Good Job"
+# print(ucapan)
+
+
+# !KALKULATOR SEDERHANA
+# angka1 = float(input("Angka Pertama : "))
+# operator = input("Masukkan Operator ( + , - , / , x , ^s  ): ")
+# angka2 = float(input("Angka Kedua : "))
+# if operator == "+":
+#     print(f"Hasilnya adalah {angka1 + angka2}")
+# elif operator == "-":
+#     print(f"Hasilnya adalah {angka1 - angka2}")
+# elif operator == "/":
+#     print(f"Hasilnya adalah {angka1 / angka2}")
+# elif operator == "x" or operator == "*":
+#     print(f"Hasilnya adalah {angka1 * angka2}")
+# elif operator == "xx" or operator == "^" or operator == "**":
+#     print(f"Hasilnya adalah {angka1 ** angka2}")
+# else:
+#     print("Jawabannya apa bang Messi?")
