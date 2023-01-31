@@ -42,9 +42,16 @@ print('Suhu adalah', fahrenheit, 'fahrenheit')
 # !MENCOBA MEMBUAT FUNCTION
 
 
+# def sayHello(waktu, nama):
+#     kalimat = (f"Halo {nama}, Selamat {waktu}")
+#     print(kalimat)
+
+
+# sayHello('Pagi', 'Guntur')
+
 def sayHello(waktu, nama):
-    kalimat = (f"Halo {nama}, Selamat {waktu}")
-    print(kalimat)
+    kalimat = f"Halo {nama}, Selamat {waktu}"
+    return kalimat
 
 
-sayHello('Pagi', 'Guntur')
+print(sayHello("Pagi", "Guntur"))
