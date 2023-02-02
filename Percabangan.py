@@ -1,11 +1,3 @@
-def sayHello(waktu, nama):
-    kalimat = (f"Halo {nama}, Selamat {waktu}")
-    print(kalimat)
-
-
-sayHello('Pagi', 'Guntur')
-
-
 # !OPERATOR TERNARY
 # nilai = float(input('Nilai Anda : '))
 # hasil = (f'Nilai anda {nilai}, Anda lulus') if nilai >= 80 else (
@@ -31,11 +23,22 @@ sayHello('Pagi', 'Guntur')
 
 
 # !PENGULANGAN
+# ! 1.WHILE LOOP
 # i = 0
 # while i <= 10:
 #     print(i)
 #     i += 1
 # print('=' * 25)
+
+
+# ! 2.FOR LOOP
+# ! CARA 1
+# for x in range(0, 20, 2):  # range (start, end, step)
+# print(x)
+
+# ! CARA 2
+# nomer = [i for i in range(0, 10)]
+# print(nomer)
 
 
 # for x in range(10):
@@ -106,3 +109,20 @@ sayHello('Pagi', 'Guntur')
 #     print(f"Hasilnya adalah {angka1 ** angka2}")
 # else:
 #     print("Jawabannya apa bang Messi?")
+
+
+# def fizzBuzz(nilai):
+#     for i in range(1, nilai+1):
+#         if i % 3 == 0 and i % 5 == 0:
+#             print("FizzBuzz")
+#         elif i % 3 == 0:
+#             print("Fizz")
+#         elif i % 5 == 0:
+#             print("Buzz")
+#         else:
+#             print(i)
+
+#     return nilai
+
+
+# print(fizzBuzz(100))
