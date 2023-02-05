@@ -1,2 +1,10 @@
-or index, namaBuah in enumerate(listBuah1):
-#     print(index+1, namaBuah)
+def sayHello(nama):
+#     name = nama.copy()
+#     for salam in name:
+#         kalimat = f"Halo {salam}"
+#     return kalimat
+
+
+# nama1 = ["Guntur", "Wahyu", "Septiaji", "Farhan"]
+# ucapan = sayHello(nama1)
+# print(ucapan)

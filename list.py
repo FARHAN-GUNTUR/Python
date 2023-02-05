@@ -107,10 +107,10 @@
 # for i in range(len(nama)):
 #     print(nama[i])
 
-perabotan1 = ["Tv", "Laptop", "Hp", "Smartwatch", "Google Lens", "Rice Cooker"]
+# perabotan1 = ["Tv", "Laptop", "Hp", "Smartwatch", "Google Lens", "Rice Cooker"]
 # # ! Mengubah index ke 2 dan ke 3 serta menghilangkan index ke 3-5
 # perabotan1[2:6] = ["Lampu", "Gadget"]
-perabotan1.append("Dinamo")
+# perabotan1.append("Dinamo")
 # print(perabotan1)
 # !PENGULANGAN
 # !1. WHILE LOOP
@@ -123,20 +123,24 @@ perabotan1.append("Dinamo")
 # for x in range(len(perabotan1)):
 #     print(perabotan1[x])
 # !CARA 2
-for x in perabotan1:
-    print(x)
+# for x in perabotan1:
+    # print(x)
 
 
 # ! LATIHAN LIST
 
-# listBuku = []
-# while True:
-#     judul = input("Judul Buku : ")
-#     penulis = input("Penulis\t : ")
-#     buku = {'Judul': judul, 'Penulis': penulis}
-#     listBuku.append(buku)
-#     for index, i in enumerate(listBuku):
-#         print(f"{index+1}.) {i['Judul']} : {i['Penulis']}")
-#     lanjut = input("Lanjutkan (y/n) : ")
-#     if lanjut == "n":
-#         break
+listBuku = []
+while True:
+    judul = input("Judul Buku : ")
+    penulis = input("Penulis\t : ")
+    buku = {
+        # ?DATA DICTIONARY
+        # !key : value
+        'Judul': judul,
+        'Penulis': penulis}
+    listBuku.append(buku)
+    for index, i in enumerate(listBuku):
+        print(f"{index+1}.) {i['Judul']} : {i['Penulis']}")
+    lanjut = input("Lanjutkan (y/n) : ")
+    if lanjut == "n":
+        break

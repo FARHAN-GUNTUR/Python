@@ -49,9 +49,3 @@ print('Suhu adalah', fahrenheit, 'fahrenheit')
 
 # sayHello('Pagi', 'Guntur')
 
-def sayHello(waktu, nama):
-    kalimat = f"Halo {nama}, Selamat {waktu}"
-    return kalimat
-
-
-print(sayHello("Pagi", "Guntur"))
