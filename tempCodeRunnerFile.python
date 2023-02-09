@@ -1,0 +1,13 @@
+
+
+import unittest
+
+class TestFruitList(unittest.TestCase):
+
+    def test_fruit_list(self):
+        fruits = ["apel", "mangga", "jeruk", "pisang", "jambu"]
+        fruit_list = [i.upper() if i.capitalize() else i.capitalize() for i in fruits]
+        self.assertEqual(fruit_list, ['Apel', 'MANGGA', 'Jeruk', 'Pisang', 'Jambu'])
+
+if __name__ == '__main__': 
+    unittest.main()

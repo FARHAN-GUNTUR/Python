@@ -1,3 +1,4 @@
+
 # def sayHello(nama):
 #     kalimat = f"Hello {nama}"
 #     return kalimat
@@ -66,6 +67,7 @@
 # print("=" * 25)
 # print("=" * 25)
 # print("=" * 25)
+# ?
 # def sayHello(nama, waktu):
 #     for i in range(len(nama)):
 #         print(f"Halo {nama[i]} Selamat {waktu[i]}")
@@ -74,6 +76,14 @@
 # list_nama = ["Guntur", "Wahyu", "Septiaji", "Farhan"]
 # list_waktu = ["Pagi", "Siang", "Sore", "Malam"]
 # sayHello(list_nama, list_waktu)
+def sayHello(nama, waktu):
+    for names, times in zip(nama, waktu):
+        print(f"Halo {names} Selamat {times}")
+
+
+list_nama = ["Guntur", "Wahyu", "Septiaji", "Farhan"]
+list_waktu = ["Pagi", "Siang", "Sore", "Malam"]
+sayHello(list_nama, list_waktu)
 
 # !DEFAULT PARAMETER VALUES
 # def sayHello(nama="Farhan"):
@@ -133,15 +143,92 @@
 # twice = "Cerry"
 # temu = cariBuah(once, twice)
 # print(f"Buah yang anda cari adalah {twice} dan buahnya adalah {temu}")
-# !MENGHITUNG VOLUME DUA KUBUS
-# def volumeDuaKubus(angka1, angka2):
-#     hasil = angka1**3 + angka2**3
+
+# TODO: *ARGS PADA PYTHON
+# def jumlah(*number):
+#     hasil = 0
+#     for angka in number:
+#         hasil += angka
 #     return hasil
 
 
-# pertama = float(input("Sisi kubus 1 (cm) : "))
-# kedua = float(input("Sisi kubus 2 (cm) : "))
-# jumlah = volumeDuaKubus(pertama, kedua)
-# print(f"Sisi kubus 1 adalah {pertama} (cm)")
-# print(f"Sisi kubus 2 adalah {kedua} (cm)")
-# print(f"Jumlah volume dua kubus tersebut adalah {jumlah} ")
+# nomer = jumlah(1, 2, 3, 4, 5)
+# print(nomer)
+
+
+# def nama_lengkap(*name):
+#     for index, nama in enumerate(name):
+#         print(f"{index+1}.{nama}")
+
+
+# first = nama_lengkap("Farhan", "Guntur")
+
+
+# TODO: **KWARGS PADA
+# def print_kwargs(**kwargs):
+#     for key, value in kwargs.items():
+#         print(f"{key} = {value}")
+
+
+# print_kwargs(first_name="John", last_name="Doe")
+# print_kwargs(first_name="FARHAN", last_name="GUNTUR")
+# enter = dict(input("Masukkan nama: "))
+# print_kwargs(enter)
+
+
+# def print_values(**kwargs):
+#     for key, value in kwargs.items():
+#         print(f"{key} = {value}")
+
+
+# while True:
+#     input_data = input(
+#         "Enter values in key=value format, separated by comma: ")
+#     data = dict(item.split("=") for item in input_data.split(","))
+
+#     print_values(**data)
+#     lanjut = input("Mau Lanjut Bro? (y/n) : ")
+#     if lanjut == "y":
+#         continue
+#     else:
+#         break
+
+
+# def print_student_info(**kwargs):
+#     for key, value in kwargs.items():
+#         print(f"{key}: {value}")
+
+
+# student1 = {
+#     "first_name": "John",
+#     "last_name": "Doe",
+#     "age": 25,
+#     "major": "Computer Science"
+# }
+
+# student2 = {
+#     "first_name": "Jane",
+#     "last_name": "Doe",
+#     "age": 23,
+#     "major": "Mathematics"
+# }
+
+# student3 = {
+#     "first_name": "Guntur",
+#     "last_name": "Farhan",
+#     "age": 20,
+#     "major": "Pysics"
+# }
+
+# print("Student 1 Info:")
+# print_student_info(**student1)
+
+# print("\nStudent 2 Info:")
+# print_student_info(**student2)
+
+# print("\nStudent 3 Info:")
+# print_student_info(**student3)
+
+# def calculator (a,operator,b):
+#   if operator == "+":
+#     return a+b

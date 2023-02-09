@@ -139,30 +139,31 @@
 #     print(f"Nama saya {nama} dan lahir pada tahun {tahun}")
 
 
-mahasiswa1 = {
-    "nama": "Guntur",
-    "nilai": 80,
-    "univ": "Brawijaya"
-}
-mahasiswa2 = {
-    "nama": "Farhan",
-    "nilai": 85,
-    "univ": "Malang"
-}
-mahasiswa3 = {
-    "nama": "Wahyu",
-    "nilai": 90,
-    "univ": "Poltek"
-}
-mahasiswa = {
-    "mahasiswa1": mahasiswa1,
-    "mahasiswa2": mahasiswa2,
-    "mahasiswa3": mahasiswa3
-}
-for data in mahasiswa:
-    nama = mahasiswa[data]["nama"]
-    nilai = mahasiswa[data]["nilai"]
-    univ = mahasiswa[data]["univ"]
-    print(f"Nama = {nama}, nilai = {nilai}, univ = {univ}")
+# mahasiswa1 = {
+#     "nama": "Guntur",
+#     "nilai": 80,
+#     "univ": "Brawijaya"
+# }
+# mahasiswa2 = {
+#     "nama": "Farhan",
+#     "nilai": 85,
+#     "univ": "Malang"
+# }
+# mahasiswa3 = {
+#     "nama": "Wahyu",
+#     "nilai": 90,
+#     "univ": "Poltek"
+# }
+# mahasiswa = {
+#     "mahasiswa1": mahasiswa1,
+#     "mahasiswa2": mahasiswa2,
+#     "mahasiswa3": mahasiswa3
+# }
+# for data in mahasiswa:
+#     nama = mahasiswa[data]["nama"]
+#     nilai = mahasiswa[data]["nilai"]
+#     univ = mahasiswa[data]["univ"]
+#     print(f"Nama = {nama}, nilai = {nilai}, univ = {univ}")
 
 
+# TODO: DICTIONARY COMPREHENSION

@@ -1,7 +1,16 @@
-buah1 = ["Apel", "Mangga", "Jeruk", "Pisang"]
-buah2 = ["Rambutan", "Salak", "Pepaya", "Nanas"]
-buah1.extend(buah2)
+# names = ["mariya", "BATMAN", "superman"]
+# nama = [n.capitalize() if n.islower() else "Relax " + n.capitalize() for n in names]
+# print(nama)
+# buah1 = ["Apel", "Mangga", "Jeruk", "Pisang", "jambu"]
+# ?MEMBUAT TEKS MENJADI HURUF BESAR SEMUA DENGAN MENGGUNAKAN LIST COMPREHENSION
+# buah = [i.upper() if i.capitalize() else i.upper() for i in buah1]
+# print(buah)
+# buah2 = ["Rambutan", "Salak", "Pepaya", "Nanas"]
+# buah1.append("Kedondong")
+# buah1.extend(buah2)
 # print(buah1)
+
+# ?jika kamu ingin menambahkan satu elemen ke dalam list, kamu harus menggunakan append, tetapi jika kamu ingin menambahkan seluruh elemen dari suatu list lain, kamu harus menggunakan extend.
 # TODO: PENGULANGAN
 # !WHILE LOOP
 # i = 0
@@ -18,6 +27,8 @@ buah1.extend(buah2)
 # ? CARA 3
 # for index, i in enumerate(buah1):
 #     print(index+1, i)
+# for index, i in enumerate(buah1, start=1):
+#     print(index, i)
 
 # TODO: LIST COMPREHENSION
 # ?TANPA PENGKONDISIAN
@@ -36,6 +47,9 @@ buah1.extend(buah2)
 # buah = [i for i in buah1]
 # for index, x in enumerate(buah):
 #     print(index+1, x)
+# buah = [i for i in buah1]
+# for index, x in enumerate(buah, start=1):
+#     print(index, x)
 # ?DENGAN PENGKONDISIAN
 # !CARA 1
 # buah = [i for i in buah1 if "a" in i]
@@ -51,4 +65,7 @@ buah1.extend(buah2)
 # !CARA 4
 # buah = [i for i in buah1 if "a" in i]
 # for index, x in enumerate(buah):
-    # print(index+1, x)
+# print(index+1, x)
+# buah = [i for i in buah1 if "a" in i]
+# for index, x in enumerate(buah, start=1):
+#     print(index, x)

@@ -19,33 +19,7 @@
 # else:
 #     print('Anda harus mengulang tahun depan')
 
-# !NOMER 2
 
-
-# !PENGULANGAN
-# ! 1.WHILE LOOP
-# i = 0
-# while i <= 10:
-#     print(i)
-#     i += 1
-# print('=' * 25)
-
-
-# ! 2.FOR LOOP
-# ! CARA 1
-# for x in range(0, 20, 2):  # range (start, end, step)
-# print(x)
-
-# ! CARA 2
-# nomer = [i for i in range(0, 10)]
-# print(nomer)
-
-
-# for x in range(10):
-#     if x % 2 == 1:
-#         continue
-#     print(x)
-# print('=' * 25)
 
 
 # jumlahAngkot = 10
@@ -126,3 +100,4 @@
 
 
 # print(fizzBuzz(100))
+

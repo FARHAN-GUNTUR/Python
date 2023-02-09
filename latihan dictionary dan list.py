@@ -41,10 +41,10 @@ while True:
         asal = mahasiswa.get('Asal')
         # print(
         #     f"{index+1}.) Nama : {mahasiswa['Nama']} Usia : {mahasiswa['Usia']} Asal : {mahasiswa['Asal']}")
-        print(nama, umur, asal)
-
+        print(f"Nama={nama}\nUmur={umur}\nAsal={asal}")
+        print('='*15)
     # for index, i in enumerate(data_mahasiswa):
     #     print(f"{index+1}.) {i['Nama']} : {i['Usia']} : {i['Asal']}")
-    # lanjut = input("Lanjutkan (y/n) : ")
-    # if lanjut == "n":
-    #     break
+    lanjut = input("Lanjutkan (y/n) : ")
+    if lanjut == "n":
+        break
