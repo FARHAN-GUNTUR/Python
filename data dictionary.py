@@ -14,6 +14,7 @@
 # cek = "nama" in dataDict
 # print(cek)
 # !MENGAKSESS VALUE
+# ? LEBIH BAIK MENGGUNAKAN CAA YANG KEDUA
 # !CARA 1
 # print(dataDict["name"])
 # data = dataDict["asal"]
@@ -57,6 +58,12 @@
 # !DENGAN MENGGUNAKAN METHOD CLEAR
 # !AKAN MENGHAPUS SEMUA ITEMS YANG ADA PADA DATA DICTIONARY
 # dataDict.clear()
+# print(dataDict)
+
+# TODO: SETDEFAULT
+# ? MENAMBAHKAN KEY DAN VALUE
+# data_dict = dataDict.setdefault("color", "Bluesky")
+# print(data_dict)
 # print(dataDict)
 
 

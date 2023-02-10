@@ -41,9 +41,16 @@
 # print(nama)
 # print(nama_benar)
 
-names = ["mariya", "BATMAN", "superman"]
+# names = ["mariya", "BATMAN", "superman"]
 # nama = [n.capitalize() if n.islower() else "Relax " + n.capitalize() for n in names]
-nama = [n.capitalize() if n.islower() else n.lower() for n in names]
+# nama = [n.capitalize() if n.islower() else n.lower() for n in names]
 # nama = [n.capitalize() if n.islower() else "Halo " + n.upper() for n in names]
-print(nama)
+# print(nama)
 
+# number = [i*i for i in range(10)]
+# print(number)
+number = [int(i) for i in input("Masukkan Bilangan : ").split()]
+numbers = [i*i for i in number]
+print(numbers)
+numbers1 = sum(numbers)
+print(f"Hasil dari {numbers} = {numbers1}")

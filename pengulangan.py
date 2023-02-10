@@ -15,6 +15,8 @@
 # ! CARA 2
 # nomer = [i for i in range(0, 10)]
 # print(nomer)
+# number = (x for x in range(0, 10))
+# print(number)
 
 
 # for x in range(10):
@@ -38,6 +40,10 @@
 # angka = [1, 2, 3, 4, 5]
 # hasil = sum(angka)
 # print(hasil)
+# ? UNTUK PENJUMLHAN LEBIH BAIK MENGGUNAKAN KURUNG BIASA () DARIPADA KURUNG SIKU []
+# angka = (1,2,3,4,5)
+# print(sum(angka))
+
 
 
 # !CARA3

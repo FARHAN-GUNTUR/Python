@@ -76,14 +76,14 @@
 # list_nama = ["Guntur", "Wahyu", "Septiaji", "Farhan"]
 # list_waktu = ["Pagi", "Siang", "Sore", "Malam"]
 # sayHello(list_nama, list_waktu)
-def sayHello(nama, waktu):
-    for names, times in zip(nama, waktu):
-        print(f"Halo {names} Selamat {times}")
+# def sayHello(nama, waktu):
+#     for names, times in zip(nama, waktu):
+#         print(f"Halo {names} Selamat {times}")
 
 
-list_nama = ["Guntur", "Wahyu", "Septiaji", "Farhan"]
-list_waktu = ["Pagi", "Siang", "Sore", "Malam"]
-sayHello(list_nama, list_waktu)
+# list_nama = ["Guntur", "Wahyu", "Septiaji", "Farhan"]
+# list_waktu = ["Pagi", "Siang", "Sore", "Malam"]
+# sayHello(list_nama, list_waktu)
 
 # !DEFAULT PARAMETER VALUES
 # def sayHello(nama="Farhan"):
