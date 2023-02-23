@@ -1,13 +1,21 @@
 
 
-import unittest
+# Refactored code:
+data_mahasiswa = []
+while True:
+    mahasiswa = {
+        'nama': input("Siapa Nama Anda :"),
+        'umur': int(input("Berapa Umur Anda :")),
+        'tempat_tinggal': input("Anda tinggal dimana ? :")
+    }
+    data_mahasiswa.append(mahasiswa)
 
-class TestFruitList(unittest.TestCase):
+    for index, mahasiswa in enumerate(data_mahasiswa):
+        print(f"{index+1}.Nama = {mahasiswa['nama']}\nUsia = {mahasiswa['umur']}\nAsal = {mahasiswa['tempat_tinggal']}")
 
-    def test_fruit_list(self):
-        fruits = ["apel", "mangga", "jeruk", "pisang", "jambu"]
-        fruit_list = [i.upper() if i.capitalize() else i.capitalize() for i in fruits]
-        self.assertEqual(fruit_list, ['Apel', 'MANGGA', 'Jeruk', 'Pisang', 'Jambu'])
+    lanjut = input("Mau Melanjutkan bro? (y/n) : ")
 
-if __name__ == '__main__': 
-    unittest.main()
+    if lanjut == "n":
+        break 
+
+ # Explanation: The code has been refactored to use the append() method instead of the update() method to add a new dictionary to the data_mahasiswa list. The for loop has also been updated to iterate over the list of dictionaries instead of a single dictionary.

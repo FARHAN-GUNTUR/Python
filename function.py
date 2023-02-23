@@ -176,22 +176,22 @@
 # print_kwargs(enter)
 
 
-# def print_values(**kwargs):
-#     for key, value in kwargs.items():
-#         print(f"{key} = {value}")
+def print_values(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key} = {value}")
 
 
-# while True:
-#     input_data = input(
-#         "Enter values in key=value format, separated by comma: ")
-#     data = dict(item.split("=") for item in input_data.split(","))
+while True:
+    input_data = input(
+        "Enter values in key=value format, separated by comma: ")
+    data = dict(item.split("=") for item in input_data.split(","))
 
-#     print_values(**data)
-#     lanjut = input("Mau Lanjut Bro? (y/n) : ")
-#     if lanjut == "y":
-#         continue
-#     else:
-#         break
+    print_values(**data)
+    lanjut = input("Mau Lanjut Bro? (y/n) : ")
+    if lanjut == "y":
+        continue
+    else:
+        break
 
 
 # def print_student_info(**kwargs):
